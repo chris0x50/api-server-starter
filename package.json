@@ -1,0 +1,24 @@
+{
+  "name": "api-server",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "prod": "NODE_ENV=production node app.js",
+    "dev": "DEBUG=server NODE_ENV=development nodemon app.js",
+    "test": "NODE_ENV=test"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "serve-favicon": "^2.4.3",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
