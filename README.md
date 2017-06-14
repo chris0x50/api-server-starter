@@ -1,8 +1,8 @@
 # Express API Server
 ## Commands
-#npm run prod
-#npm run dev
-#npm test
+- npm run prod
+- npm run dev
+- npm test
 ## Branches
 ### master
 Server with barebones configuration
